@@ -23,6 +23,49 @@ main {
 .container {text-align: center;}
 
 
+
+h2.h2-bold-letter {
+        text-align: center;
+        padding: 0 auto;
+        margin: 0 auto;
+        line-height: 0;
+        font-size: 35px;
+        font-weight: bolder;
+    }
+
+ h2.h2-bold-letter-2{
+        text-align: center;
+        line-height: 100%;
+        padding: 0 auto;
+        margin: 0 auto;
+        font-weight: bolder;
+        font-size: 28px;
+    }
+
+
+h3.h3-bold-letter{
+        font-weight: bold;
+        line-height: 170%;
+        font-size: 28px;
+    }
+
+h4.h4-bold-letter{
+        font-weight: bold;
+        line-height: 1.5em;
+        font-size: 26px;
+    }
+
+h4.h4-normal-letter {
+        line-height: 170%;
+        font-size: 24px;
+    }
+
+
+p, .line-max {
+        line-height: 170%;
+        font-size: 20px;
+}
+
 h1{
         font-size: 10em;
     }
@@ -51,44 +94,7 @@ h1{
     border-bottom-style: solid;
     
 }
- main .h2-bold-letter2{
-    line-height: 170%;
-    font-size: 30px;
-    font-weight: bolder;
-}
 
-main .h2-bold-letter {
-    text-align: center;
-    padding: 0 auto;
-    margin: 0 auto;
-    line-height: 100%;
-    font-size: 30px;
-    font-weight: bolder;
-}
-
-
-
-main .h3-bold-letter{
-    font-weight: bolder;
-    line-height: 170%;
-    font-size: 28px;
-}
-
-main .h4-bold-letter{
-    font-weight: bold;
-    line-height: 1.5em;
-    font-size: 26px;
-}
-
-main .h4-normal-letter {
-    line-height: 170%;
-    font-size: 25px;
-}
-
-p, .line-max {
-    line-height: 170%;
-    font-size: 18px;
-}
 
 
 .col-sm-12 ul {
@@ -150,11 +156,8 @@ nav ul li.active a {
 	color: #333333;
 }
 
-/* * * * * NAVIGATION BAR END * * * * */ 
 
-
-
-/* * * * * FOOTER * * * * */ 
+/* FOOTER */ 
 footer {
     background-color: #333333;
     display: block;
@@ -201,7 +204,7 @@ footer small {
     font-family: 'Poppins', sans-serif;
 }
 
-/* * * * * RESUME * * * * */ 
+/* RESUME */ 
 .border-resume {
     border-color: #333333;
     padding: 1.8em;
@@ -216,57 +219,6 @@ footer small {
 
 
 
-/* FORM CONTENT */ 
-
-form{
-    width: 100%;
-    padding: 3em;
-    background-color: grey;
-
-}
-
-
-label {
-    width: 100%;
-    float: left;
-    padding-top: 8px;
-    margin: 0;
-    padding: 0 auto;
-    font-weight: bold;
-}
-
-input[type= tel] {
-    padding-bottom: 1em;
-    
-}
-
-input, textarea {
-    margin: 0 auto;
-    Padding: 0 auto; 
-    border: 1px solid black;
-    width: inherit;
-    height: 2em;
-    font-size: 13.5px;
-}
-
-
-
-input[type= submit] {
-    display: block;
-    background-color: lightgray;
-    float: right;
-    
-    width: 5em;
-    font-weight: bold;
-    }
-
-    textarea {
-    height: 5em;
-    
-    }
-
-
-
 
 /* CSS Adjustments for desktop */ 
 @media only screen and (max-width: 1200px) {
@@ -274,23 +226,76 @@ input[type= submit] {
     .desktop{
         display:block;
     
-}
+    }
 
     .mobile{
         display:none;
     
+    }
+    
+
+    h2.h2-bold-letter {
+        font-size: 35px;
+    }
+
+    h2.h2-bold-letter-2{
+        font-size: 28px;
+    }
+
+    h3.h3-bold-letter{
+        font-size: 28px;
+    }
+    
+    h4.h4-bold-letter{
+        font-size: 26px;
+    }
+    
+    h4.h4-normal-letter {
+        font-size: 24px;
+    }
+    
+    p, .line-max {
+        
+        font-size: 20px;
+    }
+    
 }
     
 
-}
 
 
 /* CSS Adjustments for tablets */ 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 800px) {
    
     
     h1{
         font-size: 1.5em;
+    }
+
+    h2.h2-bold-letter {
+        font-size: 33px;
+    }
+    
+     h2.h2-bold-letter-2 {
+        font-size: 26.5px;
+        
+    }
+
+    h3.h3-bold-letter{
+        font-size: 26.5px;
+    }
+
+    h4.h4-bold-letter{
+        font-size: 22.5px;
+    }
+
+    h4.h4-normal-letter {
+        font-size: 20.5px;
+    }
+
+    p, .line-max {
+        line-height: 170%;
+        font-size: 18px;
     }
 
 
@@ -336,44 +341,31 @@ input[type= submit] {
     }
     
    
-    main .h2-bold-letter {
-        text-align: center;
-        padding: 0 auto;
-        margin: 0 auto;
-        line-height: 100%;
-        font-size: 28px;
-        font-weight: bolder;
+    h2.h2-bold-letter {
+        font-size: 31px;
     }
     
-    main .h2-bold-letter2{
-        line-height: 100%;
-        font-size: 28px;
-        font-weight: bolder;
+    h2.h2-bold-letter-2{
+        font-size: 24.5px;
+        line-height: 125%;
+        
     }
 
-
-
-    main .h3-bold-letter{
-        font-weight: bold;
-        line-height: 170%;
-        font-size: 26px;
+    h3.h3-bold-letter{
+        font-size: 24.5px;
     }
 
-    main .h4-bold-letter{
-        font-weight: bold;
-        line-height: 1.5em;
-        font-size: 20px;
+    h4.h4-bold-letter{
+        font-size: 20.5px;
     }
 
-    main .h4-normal-letter {
-        line-height: 170%;
-        font-size: 20px;
-        font-weight: normal;
+     h4.h4-normal-letter {
+        font-size: 20.5px;
     }
 
     p, .line-max {
         line-height: 170%;
-        font-size: 17px;
+        font-size: 18px;
     }
 
 
