@@ -1,0 +1,380 @@
+;@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap');
+
+
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+main {
+    padding-top: 1em;
+    margin: 0 auto;
+    padding: 2em 4.2em;
+    max-width: 1200px;
+    font-family: Poppins, sans-serif;
+}
+
+
+.container {text-align: center;}
+
+
+h1{
+        font-size: 10em;
+    }
+
+.h1-title {
+    text-transform: uppercase;
+}
+
+.img-fluid {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.col-sm-6 {
+    padding: 0px;
+}
+/* RESUME */ 
+
+.row-1 {
+    border-bottom: 3px;
+    border-bottom-color: #333333;
+    border-bottom-style: solid;
+    
+}
+ main .h2-bold-letter2{
+    line-height: 170%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+main .h2-bold-letter {
+    text-align: center;
+    padding: 0 auto;
+    margin: 0 auto;
+    line-height: 100%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+
+main .h3-bold-letter{
+    font-weight: bolder;
+    line-height: 170%;
+    font-size: 28px;
+}
+
+main .h4-bold-letter{
+    font-weight: bold;
+    line-height: 1.5em;
+    font-size: 26px;
+}
+
+main .h4-normal-letter {
+    line-height: 170%;
+    font-size: 25px;
+}
+
+p, .line-max {
+    line-height: 170%;
+    font-size: 18px;
+}
+
+
+.col-sm-12 ul {
+    padding-left: 16px;
+}
+
+.main-adve .col-sm-6 {
+    padding: 15px;
+}
+
+
+/* NAVIGATION BAR */ 
+nav {
+    background-color: #19AC68;
+    display: inline-block;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    
+    
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 30px;
+	text-transform: uppercase;
+    height: 50px;
+    display: block;
+    font-weight: bold;
+    
+    
+}
+
+nav li a:link {
+    color: #ffffff;
+}
+
+nav li a:visited {
+    color: white;
+}
+
+nav li a:hover {
+    color: #a3ddc2;
+    text-decoration: none;
+}
+
+nav ul li.active a {
+	color: #333333;
+}
+
+/* * * * * NAVIGATION BAR END * * * * */ 
+
+
+
+/* * * * * FOOTER * * * * */ 
+footer {
+    background-color: #333333;
+    display: block;
+    padding: 2.5em;
+}
+
+footer .img-fluid  {
+    text-align: center;
+    
+}
+
+footer .img-fluid i {
+    text-align: center;
+    color: #FFFFFF;
+    font-size:50px;
+    padding: 5px;
+    
+}
+
+
+footer .img-fluid  p a{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+
+footer small {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 2em;
+    
+}
+
+/* * * * * END FOOTER * * * * */ 
+
+
+.img-fluid p, .img-fluid h1, .img-fluid h2, .img-fluid h3, .img-fluid h4  {
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* * * * * RESUME * * * * */ 
+.border-resume {
+    border-color: #333333;
+    padding: 1.8em;
+    border: 3px;
+    border-style: solid; 
+}
+
+
+.col-sm-6-right {
+    text-align: right;
+}
+
+
+
+/* FORM CONTENT */ 
+
+form{
+    width: 100%;
+    padding: 3em;
+    background-color: grey;
+
+}
+
+
+label {
+    width: 100%;
+    float: left;
+    padding-top: 8px;
+    margin: 0;
+    padding: 0 auto;
+    font-weight: bold;
+}
+
+input[type= tel] {
+    padding-bottom: 1em;
+    
+}
+
+input, textarea {
+    margin: 0 auto;
+    Padding: 0 auto; 
+    border: 1px solid black;
+    width: inherit;
+    height: 2em;
+    font-size: 13.5px;
+}
+
+
+
+input[type= submit] {
+    display: block;
+    background-color: lightgray;
+    float: right;
+    
+    width: 5em;
+    font-weight: bold;
+    }
+
+    textarea {
+    height: 5em;
+    
+    }
+
+
+
+
+/* CSS Adjustments for desktop */ 
+@media only screen and (max-width: 1200px) {
+  
+    .desktop{
+        display:block;
+    
+}
+
+    .mobile{
+        display:none;
+    
+}
+    
+
+}
+
+
+/* CSS Adjustments for tablets */ 
+@media only screen and (max-width: 575px) {
+   
+    
+    h1{
+        font-size: 1.5em;
+    }
+
+
+}
+
+
+/* CSS Adjustments for smartphones */ 
+@media only screen and (max-width: 553px) {
+    
+    nav li {
+    display: block;
+    }
+    
+    .border-resume {
+        padding: 0em;
+        border-style:none;
+    }
+    
+     
+    .desktop{
+        display:none;
+         width: 100%;
+    }
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+    
+    .h1-title {
+        text-align: left;
+    }
+    
+    input[type= submit] {
+        display: block;
+        background-color: lightgray;
+        float: right;
+    
+        width: 100%;
+        font-weight: bold;
+    }
+     .container {
+        padding-bottom: 1em;
+    }
+    
+   
+    main .h2-bold-letter {
+        text-align: center;
+        padding: 0 auto;
+        margin: 0 auto;
+        line-height: 100%;
+        font-size: 28px;
+        font-weight: bolder;
+    }
+    
+    main .h2-bold-letter2{
+        line-height: 100%;
+        font-size: 28px;
+        font-weight: bolder;
+    }
+
+
+
+    main .h3-bold-letter{
+        font-weight: bold;
+        line-height: 170%;
+        font-size: 26px;
+    }
+
+    main .h4-bold-letter{
+        font-weight: bold;
+        line-height: 1.5em;
+        font-size: 20px;
+    }
+
+    main .h4-normal-letter {
+        line-height: 170%;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    p, .line-max {
+        line-height: 170%;
+        font-size: 17px;
+    }
+
+
+}
